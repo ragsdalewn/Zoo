@@ -13,16 +13,17 @@ namespace Zoo.Controllers
 
         public ActionResult Index()
         {
+            //insert code here to validate log in
             return View();
         }//end Index
 
         public ActionResult ViewEmployeeSchedule()
         {
-
+            //code to display a single employee's schedule
             return View();
         }//end ViewEmployeeSchedule
 
-        public ActionResult  ChooseDepartmentToManage()
+        public ActionResult ChooseDepartmentToManage()
         {
             return View();
         }//end ChooseDepartmentToManage
@@ -33,11 +34,23 @@ namespace Zoo.Controllers
 
         }//end ChooseManagementTask
 
+        public ActionResult ChooseCreateWeek()
+        {
+            return View();
+
+        }//end ChooseWeek
+
         public ActionResult CreateDepartmentSchedule()
         {
             return View();
 
         }//end CreateDepartmentSchedule
+
+        public ActionResult ChooseViewWeek()
+        {
+            return View();
+
+        }//end ChooseViewWeek
 
         public ActionResult ViewDepartmentSchedule()
         {
@@ -45,11 +58,19 @@ namespace Zoo.Controllers
 
         }//end ViewDepartmentSchedule
 
+        public ActionResult ChooseEditWeek()
+        {
+            return View;
+
+        }//end ChooseEditWeek
+
         public ActionResult EditDepartmentSchedule()
         {
             return View();
 
         }//end EditDepartmentSchedule
+
+
 
     }//end controller
 }//end namespace
