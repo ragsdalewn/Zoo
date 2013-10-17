@@ -1,21 +1,32 @@
 ﻿body {
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
-    color: #232323;
+    color: #006633;
     background-color: #f0e68c;
 }
 
 header, footer, nav, section {
     //display: block;
-    color: #008000;
+    color: #006633;
     font-family:'Times New Roman';
 
 }
 
-/*spacing*/
+a {
+    color: #006633;
+}
+
+.big {
+    font-size:3em;
+}
+
+.bigger {
+    font-size:5em;
+}
 
 .center {
     text-align: center;
+
 }
 /* Styles for basic forms
 -----------------------------------------------------------*/

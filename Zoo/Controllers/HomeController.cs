@@ -22,6 +22,30 @@ namespace Zoo.Controllers
             return View();
         }//end ViewEmployeeSchedule
 
+        public ActionResult ChooseManagementTask()
+        {
+            return View();
+
+        }//end ChooseManagementTask
+
+        public ActionResult CreateDepartmentSchedule()
+        {
+            return View();
+
+        }//end CreateDepartmentSchedule
+
+        public ActionResult ViewDepartmentSchedule()
+        {
+            return View();
+
+        }//end ViewDepartmentSchedule
+
+        public ActionResult EditDepartmentSchedule()
+        {
+            return View();
+
+        }//end EditDepartmentSchedule
+
     }//end controller
 }//end namespace
 
