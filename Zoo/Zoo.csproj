@@ -127,7 +127,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\EMPLOYEE.cs" />
+    <Compile Include="Models\Department.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Roles.cs" />
+    <Compile Include="Models\Schedule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -222,6 +225,7 @@
     <Content Include="Views\Home\CreateDepartmentSchedule.cshtml" />
     <Content Include="Views\Home\ViewDepartmentSchedule.cshtml" />
     <Content Include="Views\Home\EditDepartmentSchedule.cshtml" />
+    <Content Include="Views\Home\ChooseDepartmentToManage.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

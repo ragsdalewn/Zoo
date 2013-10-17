@@ -1,16 +1,35 @@
-﻿@{
+﻿@model IEnumerable<Zoo.Models.Schedule>
+@{
     ViewBag.Title = "Create Department Schedule";
 }
+
 
 <div class="center">
 <div class="big">Department Schedule</div>
 <br />
 <table>
     <thead>
+        <tr>
         <td>Location</td>
+        <td></td>
         <td>Employee</td>
+        <td></td>
         <td>Time In</td>
+        <td></td>
         <td>Time Out</td>
+
+        </tr>
     </thead>
+    <tbody>
+        <tr>
+            <td>Safari Grill</td>
+            <td></td>
+            <td>Whitney R.</td>
+            <td></td>
+            <td>10:00</td>
+            <td></td>
+            <td>4:00</td>
+        </tr>
+    </tbody>   
 </table>
 </div>
