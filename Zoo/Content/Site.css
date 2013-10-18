@@ -20,6 +20,10 @@ hr {
     color: #006633;
 }
 
+th {
+    font-size:1.5em;
+}
+
 .big {
     font-size:3em;
 }
@@ -30,8 +34,19 @@ hr {
 
 .center {
     text-align: center;
-
 }
+
+.right {
+    text-align:right;
+}
+
+.tablecenter {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+
 /* Styles for basic forms
 -----------------------------------------------------------*/
 fieldset {

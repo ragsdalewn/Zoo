@@ -21,7 +21,7 @@ namespace Zoo
 
             routes.MapRoute(
                            name: "ViewEmployeeSchedule",
-                           url: "Home/ViewEmployeeSchedule/{*parameters}",
+                           url: "Home/ViewEmployeeSchedule/",
                            defaults: new { controller = "Home", action = "ViewEmployeeSchedule" });
         }
     }

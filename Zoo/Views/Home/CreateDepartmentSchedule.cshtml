@@ -3,32 +3,58 @@
     ViewBag.Title = "Create Department Schedule";
 }
 
+<div class="right">
+    <a href="Home/ChooseManagementTask">Back</a>
+    <a href="Views/Home/Index">Exit</a>
+</div>
 
 <div class="center">
-<div class="big">Department Schedule</div>
+<br /><br />
+<div class="big">Create Department Schedule</div>
 <br />
+
 <table>
     <thead>
         <tr>
-        <td>Location</td>
-        <td></td>
-        <td>Employee</td>
-        <td></td>
-        <td>Time In</td>
-        <td></td>
-        <td>Time Out</td>
+        <th>Employee</th>
+        <td>&nbsp;&nbsp;</td>
+        <th>Location</th>
+        <td>&nbsp;&nbsp;</td>
+        <th>Time In</th>
+        <td>&nbsp;&nbsp;</td>
+        <th>Time Out</th>
 
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Safari Grill</td>
-            <td></td>
             <td>Whitney R.</td>
             <td></td>
-            <td>10:00</td>
+            <td>
+                <select>
+                    <option value="Breaks">Breaks</option>
+                    <option value="DippinDots">Dippin' Dots</option>
+                    <option value="Oasis">Oasis</option>
+                    <option value="SafariGrill">Safari Grill</option>
+                </select>
+            </td>
             <td></td>
-            <td>4:00</td>
+              <td>
+                <select>
+                    <option value="9">9:00</option>
+                    <option value="9:30">9:30</option>
+                    <option value="10:00">10:00</option>
+                    <option value="10:30">10:30</option>
+                </select>
+            </td>
+            <td></td>
+              <td>
+                <select>
+                    <option value="3:00">3:00</option>
+                    <option value="4:00">4:00</option>
+                    <option value="cl">CL</option>
+                </select>
+            </td>
         </tr>
     </tbody>   
 </table>
