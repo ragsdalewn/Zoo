@@ -226,7 +226,9 @@
     <Content Include="Views\Home\ViewDepartmentSchedule.cshtml" />
     <Content Include="Views\Home\EditDepartmentSchedule.cshtml" />
     <Content Include="Views\Home\ChooseDepartmentToManage.cshtml" />
-    <Content Include="Views\Home\ChooseWeek.cshtml" />
+    <Content Include="Views\Home\ChooseCreateWeek.cshtml" />
+    <Content Include="Views\Home\ChooseViewWeek.cshtml" />
+    <Content Include="Views\Home\ChooseEditWeek.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
