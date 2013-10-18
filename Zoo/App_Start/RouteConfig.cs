@@ -19,10 +19,7 @@ namespace Zoo
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
 
-            routes.MapRoute(
-                           name: "ViewEmployeeSchedule",
-                           url: "Home/ViewEmployeeSchedule/",
-                           defaults: new { controller = "Home", action = "ViewEmployeeSchedule" });
+       
         }
     }
 }
